@@ -1,0 +1,5 @@
+application:
+  geolite2:
+    remote-url: "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=${application.geolite2.licence-key}&suffix=tar.gz"
+    tarball-file: "file:${user.home}/.geolite/geolite.tar.gz"
+    licence-key:  "${licence-key}" # get a licence key from: https://www.maxmind.com/en/accounts/current/license-key
